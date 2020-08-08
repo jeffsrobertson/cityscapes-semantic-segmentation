@@ -73,7 +73,7 @@ I found it strange that the original U-Net paper used 'valid' padding in its con
 
 ![padding](images/padding.png)
 
-As you can see, there is virtually no difference between using valid padding vs same. Therefore I see no reason to use valid padding, as was done in the original U-Net architecture. 
+As you can see, there is no significant difference between using valid padding vs same. Therefore I see no reason to use valid padding, as was done in the original U-Net architecture. 
 
 Note that, in light of the above observations, all the previous results shown were from the model trained with 'same' padding.
 
