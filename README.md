@@ -56,7 +56,7 @@ At a glance, it appears to classify most of the image correctly. It struggles wi
 
 ![metrics](images/metrics.png)
 
-I tracked two metrics for evaluating my model: (1) a simple pixel-averaged accuracy, and (2) the intersection over union (IoU) for each class. As you can see in the above figure, the pixel accuracy achieved 80%+ after only a few epochs, and then was a slow crawl to ~85% before flattening out around the 20th epoch. Beyond 20 epochs, the training loss continued to decrease while the validation loss remained flat, indicating that the model was being overfit. Note that, other than horizontal image flipping, I made no effort to augment the traininig data, so it's very likely that with data augmentation and/or regularization this model could be trained even further.
+I tracked two metrics for evaluating my model: (1) a simple pixel-averaged accuracy, and (2) the intersection over union (IoU) for each class. As you can see in the above figure, the pixel accuracy achieved 80%+ after only a few epochs, and then was a slow crawl to ~85% before flattening out around the 20th epoch. Beyond 20 epochs, the training loss continued to decrease while the validation loss remained flat, indicating that the model was being overfit. Note that, other than horizontal image flipping, I made no effort to augment the training data, so it's very likely that with data augmentation and/or regularization this model could be trained even further.
 
 
 ![classious](images/classious.png)
