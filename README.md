@@ -4,7 +4,7 @@ In this project I trained a neural network from scratch to perform semantic segm
 
 ## Dependencies
 
-This project used Pytorch for training and Torchvision to access the Cityscapes dataset. These can be downloaded using pip, via the following commands:
+This project uses Pytorch for training and Torchvision to access the Cityscapes dataset. These can be downloaded using pip, via the following commands:
 
 > pip install torch
 >
