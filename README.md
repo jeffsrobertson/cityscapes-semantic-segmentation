@@ -46,7 +46,7 @@ The model was trained on 8 GPUs in parallel using a p2.8xlarge EC2 instance on A
 
 ### Testing
 
-If you're either too impatient or don't have the computational resources to train your own model, I provided my pretrained models in the checkpoints folder. You can evaluate the models using the test.ipynb notebook. Here is an example of a predicted segmentation from the validation set, with ground truth label for comparison:
+The models were evaluted using the test.ipynb notebook. Here is an example of a predicted segmentation from the validation set, with ground truth label for comparison:
 
 ![results](images/results.png)
 
